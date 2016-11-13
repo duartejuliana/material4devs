@@ -1,0 +1,19 @@
+a {
+	text-decoration: none;
+}
+
+.animateMe ul, .animateMe .ui-collapsible-content {
+	padding: 0;
+}
+
+.color {
+	text-shadow: none;
+	font-weight: bold;
+	padding: 1px;
+	list-style-type: none;
+	text-align: center;
+}
+
+.fechar .ui-btn-icon-left:after {
+	display: none;
+}
