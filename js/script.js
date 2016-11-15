@@ -9,3 +9,8 @@ $(document).on("pagecreate", "#estilo", function(){
         }
     });
 });
+
+$( document ).ready(function() {
+    var theheight = ($( window ).height() - 130) + "px";
+    $(".menu").css("height", theheight)
+})
