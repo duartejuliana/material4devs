@@ -2,6 +2,11 @@ a {
 	text-decoration: none;
 }
 
+hr {
+	border-top: 1px solid #e0e0e0;
+	margin: 15px;
+}
+
 .animateMe ul, .animateMe .ui-collapsible-content {
 	padding: 0;
 }
@@ -23,7 +28,8 @@ a {
 }
 
 .imgs > div {
-	padding: 5px;
+	padding: 0 5px;
+
 }
 
 .imgs img {
@@ -31,7 +37,7 @@ a {
 	padding: 0;
 }
 
-.legenda {
+.imgs p {
 	font-weight: normal;
 	margin: 0;
 }
