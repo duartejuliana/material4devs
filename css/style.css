@@ -17,3 +17,37 @@ a {
 .fechar .ui-btn-icon-left:after {
 	display: none;
 }
+
+.imgs div {
+	padding: 0;
+}
+
+.imgs > div {
+	padding: 5px;
+}
+
+.imgs img {
+	max-width: 100%;
+	padding: 0;
+}
+
+.legenda {
+	font-weight: normal;
+	margin: 0;
+}
+
+.ce {
+	color: #fff;
+	text-shadow: none;
+	margin: 0;
+	font-size: smaller;
+	text-align: center;
+}
+
+.certo {
+	background-color: #4CAF50;
+}
+
+.errado {
+	background-color: #D32F2F;
+}

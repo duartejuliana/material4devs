@@ -11,7 +11,6 @@
   <script src="js/script.js"></script>
 </head>
 <body>
- 
 <div data-role="page" id="home">
   <div data-role="header">
     <h1>Material4devs</h1>
@@ -23,12 +22,8 @@
         <div class="ui-grid-a">
         	<div class="ui-block-a"><a class="ui-bar ui-bar-a" href="#animacao">Animação</a></div>
         	<div class="ui-block-b"><a class="ui-bar ui-bar-a" href="#estilo">Estilo</a></div>
-		</div>
-		<div class="ui-grid-a">
         	<div class="ui-block-a"><a class="ui-bar ui-bar-a" href="#layout">Layout</a></div>
         	<div class="ui-block-b"><a class="ui-bar ui-bar-a" href="#componentes">Componentes</a></div>
-		</div>
-		<div class="ui-grid-a">
         	<div class="ui-block-a"><a class="ui-bar ui-bar-a" href="#padroes">Padrões</a></div>
         	<div class="ui-block-b"><a class="ui-bar ui-bar-a" href="#usabilidade">Usabilidade</a></div>
 		</div>
@@ -46,6 +41,7 @@
         <p>Jean</p>
         <p>Jeferson</p>
         <p>Juliana</p>
+        <small>Referência: developer.android.com/design/index.html</small>
       </section>
       
       <footer data-role="footer" data-position="fixed" data-tap-toggle="false"> 
@@ -67,7 +63,61 @@
 		<h1>Animação</h1> 
 	</div> 
 	<div role="main" class="ui-content">
-	Animação
+		<p>O movimento mostra a organização do aplicativo e o quê ele pode fazer.</p>
+		<p>O movimento proporciona:</p>
+		<ul>
+			<li>Foco que guia a transição entre as páginas</li>
+			<li>Dicas sobre o quê acontecerá se o usuário completar uma ação</li>
+			<li>Relaçao hierárquica e espacial entre elementos</li>
+			<li>Distração sobre o que está acontecendo por trás (como carregamento de conteúdo)</li>
+			<li>Personalidade, elegância, e leveza</li>
+		</ul>
+	    <div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/01.gif"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/02.gif"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><p class="legenda">As ondulações indicam um estado ativo</p></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><p class="legenda">O movimento indica a ação do elemento</p></div></div>
+		</div>
+		<div class="ui-grid-solo imgs">
+		    <div class="ui-block-a"><img src="img/03.gif"></div>
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a"><p class="legenda">No mundo real, aceleração de um objeto é afetada pelo peso e pela fricção superficial. O mesmo deve ocorrer no desenho do material.</p></div></div>
+		</div>
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/04.gif"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/05.gif"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><p class="legenda">As forças do mundo real inspiram o movimento ao longo de um arco e não em uma linha reta.</p></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><p class="legenda">A animação pode trazer foco para objetos que precisam de atenção do usuário.</p></div></div>
+		</div>
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/06.gif"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/07.gif"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a">
+			<p class="ce certo">Certo</p>
+        	<p class="legenda">Rápido movimento para o usuário não ter que esperar a animação terminar</p></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a">
+        	<p class="ce errado">Errado</p>
+        	<p class="legenda">Movimento escalado de muitos elementos pode prolongar a duração</p></div></div>
+		</div>
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/08.gif"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/09.gif"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a">
+        	<p class="ce certo">Certo</p>
+        	<p class="legenda">Mantenha um caminho claro, mesmo quando os elementos são apresentados como um grupo</p></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a">
+        	<p class="ce errado">Errado</p>
+        	<p class="legenda">Transições podem ficar confusas quando vários itens se movem em direções diferentes ou se cruzam</p></div></div>
+		</div>
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/10.gif"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/11.gif"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a">
+        	<p class="ce certo">Certo</p>
+        	<p class="legenda">O carregamento ocorre nos bastidores para reduzir a latência percebida</p></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a">
+        	<p class="ce errado">Errado</p>
+        	<p class="legenda">O carregamento fica mais evidente, causando uma sensação de espera maior</p></div></div>
+		</div>
 	</div>
 </div>
 
@@ -77,6 +127,56 @@
 		<h1>Estilo</h1> 
 	</div> 
 	<div role="main" class="ui-content">
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/12.png"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/13.png"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a">
+        	<p class="ce certo">Certo</p>
+        	<p class="legenda">Use cor de destaque no texto apenas para links</p></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a">
+        	<p class="ce errado">Errado</p>
+        	<p class="legenda">Não use cor de destaque em todo o texto</p></div></div>
+		</div>
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/14.png"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/15.png"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a">
+        	<p class="ce certo">Certo</p>
+        	<p class="legenda">Use cor de destaque para botões principais na tela</p></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a">
+        	<p class="ce errado">Errado</p>
+        	<p class="legenda">Não use a mesma cor para o botão e o background</p></div></div>
+		</div>
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/16.png"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/17.png"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a">
+        	<p class="ce certo">Certo</p>
+        	<p class="legenda">Use ícones simples para maior clareza e legibilidade</p></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a">
+        	<p class="ce errado">Errado</p>
+        	<p class="legenda">Não precisa ser tão literal. Evite ícones complexos</p></div></div>
+		</div>
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/18.png"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/19.png"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a">
+        	<p class="ce certo">Certo</p>
+        	<p class="legenda">Use cor e harmonização para dar às imagens foco claro</p></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a">
+        	<p class="ce errado">Errado</p>
+        	<p class="legenda">Evite fazer o usuário procurar a mensagem da imagem</p></div></div>
+		</div>
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/20.png"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/21.png"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a">
+        	<p class="ce certo">Certo</p>
+        	<p class="legenda">Use tamanho apropriado para as imagens</p></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a">
+        	<p class="ce errado">Errado</p>
+        	<p class="legenda">Foto com resolução inapropriada</p></div></div>
+		</div>
 		<div class="ui-collapsible-set">		     
 		    <div data-role="collapsible" class="animateMe">
 		        <h3>Paleta de Cores</h3>
@@ -349,10 +449,89 @@
 <div data-role="page" id="layout">
 	<div data-role="header"> 
 	<a href="#" class="ui-btn" data-rel="back">Voltar</a>
-		<h1>Layout</h1> 
+		<h1>Layout</h1>
 	</div> 
 	<div role="main" class="ui-content">
-	Layout
+		<p>O número de pixels que se encaixam em uma polegada é referido como "densidade de pixels." As telas de alta densidade têm mais pixels por polegada do que as de baixa densidade. Como resultado, elementos UI (como um botão) aparecem fisicamente maiores em telas de baixa densidade e menores em telas de alta densidade.</p>
+		<p>A resolução da tela refere-se ao número total de pixels em uma tela.</p>
+		<p>Densidade da tela = largura da tela (ou altura) em pixels / largura da tela (ou altura) em polegadas.</p>
+		<p>Ao projetar layouts para a tela, calcule as medidas de um elemento em dp:</p>
+		<p>Dp = (largura em pixels * 160) / densidade</p>
+		<p>Por exemplo, um ícone 32 x 32 px com uma densidade de tela de 320 é igual a 16 x 16 dp.</p>
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/22.png"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/23.png"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a">
+        		<p class="legenda">Linhas e margens
+	        		<ul>
+	        			<li>Margem direita da borda esquerda e direita: 16dp</li>
+	        			<li>Conteúdo associado a um ícone ou avatar margem esquerda: 72dp</li>
+	        			<li>Margens horizontais no celular: 16dp</li>
+	        		</ul>
+        		</p></div>
+        	</div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a">
+        		<p class="legenda">Espaçamento vertical
+        			<ul>
+	        			<li>Barra de status: 24dp</li>
+	        			<li>Barra de Ferramentas: 56dp</li>
+	        			<li>Subtítulo: 48dp</li>
+	        			<li>Item de lista: 72dp</li>
+	        		</ul>
+        		</p></div>
+        	</div>
+		</div>
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/24.png"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/25.png"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a">
+        		<p class="legenda">
+	        		<ul>
+	        			<li>Avatar: 40dp</li>
+	        			<li>Ícone: 24dp</li>
+	        			<li>Área de toque o em ambos: 48dp</li>
+	        		</ul>
+        		</p></div>
+        	</div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a">
+        		<p class="legenda">Exemplo de área de toque</p></div>
+        	</div>
+		</div>
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/26.png"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/27.png"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a">
+        		<p class="legenda">
+	        		<ul>
+	        			<li>Altura da área de toque: 48dp</li>
+	        			<li>Altura do botão: 36dp</li>
+	        		</ul>
+        		</p></div>
+        	</div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a">
+        		<p class="legenda">Exemplo de área de toque e botões</p></div>
+        	</div>
+		</div>
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/28.png"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/29.png"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a">
+        	<p class="ce certo">Certo</p>
+        	<p class="legenda">Use espaçamento</p></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a">
+        	<p class="ce errado">Errado</p>
+        	<p class="legenda">Evite criar seções demais</p></div></div>
+		</div>
+		<div class="ui-grid-solo imgs">
+		    <div class="ui-block-a"><img src="img/30.png"></div>
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a">
+			<p class="legenda">Estrutura da barra
+				<ul>
+        			<li>À esquerda: Ícone de navegação, título e ícone de filtro</li>
+        			<li>À direita: Ação e ícones de menu</li>
+        		</ul>
+			</p></div></div>
+		</div>
 	</div>
 </div>
 
@@ -362,7 +541,72 @@
 		<h1>Componentes</h1> 
 	</div> 
 	<div role="main" class="ui-content">
-	Componentes
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/37.png"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/38.png"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><p class="legenda">Camadas fixas na parte de baixo são muito comuns em apps</p></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><p class="legenda">Também pequenas observações em itens de lista</p></div></div>
+		</div>
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/31.png"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/32.png"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a">
+        	<p class="ce certo">Certo</p>
+        	<p class="legenda">A barra de navegação exibe de três a cinco principais níveis do app</p></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a">
+        	<p class="ce errado">Errado</p>
+        	<p class="legenda">Se houver menos de três destinos, evite usar a navegação</p></div></div>
+		</div>
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/33.png"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/34.png"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a">
+        	<p class="ce certo">Certo</p>
+        	<p class="legenda">Todos os ítens devem estar visíveis</p></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a">
+        	<p class="ce errado">Errado</p>
+        	<p class="legenda">Evite barra com scroll</p></div></div>
+		</div>
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/35.png"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/36.png"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a">
+        	<p class="ce certo">Certo</p>
+        	<p class="legenda">Use títulos curtos</p></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a">
+        	<p class="ce errado">Errado</p>
+        	<p class="legenda">Evite títulos longos</p></div></div>
+		</div>
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/39.png"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/40.png"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a">
+        	<p class="ce certo">Certo</p>
+        	<p class="legenda">Em camadas de modal, deixe um espaço para o usuário clicar fora para fechar</p></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a">
+        	<p class="ce errado">Errado</p>
+        	<p class="legenda">A altura da camada de modal não deve ultrapassar a quantidade do seu conteúdo</p></div></div>
+		</div>
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/41.png"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/42.png"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a">
+        	<p class="ce certo">Certo</p>
+        	<p class="legenda">Botões em relevo se destacam mais</p></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a">
+        	<p class="ce errado">Errado</p>
+        	<p class="legenda">Não use botões lisos em interfaces onde será difícil de encontrá-los</p></div></div>
+		</div>
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/43.png"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/44.png"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a">
+        	<p class="ce certo">Certo</p>
+        	<p class="legenda">Botões flutuantes devem ter sombreamento simples</p></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a">
+        	<p class="ce errado">Errado</p>
+        	<p class="legenda">Não usar dimensão extra nestes botões</p></div></div>
+		</div>
 	</div>
 </div>
 
@@ -372,7 +616,48 @@
 		<h1>Padrões</h1> 
 	</div> 
 	<div role="main" class="ui-content">
-	Padrões
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/45.png"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/46.png"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><p class="legenda">Forneça tutorial sobre o funcionamento do app, incluindo botão para pular</p></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><p class="legenda">A função de autocomplete pode ajudar o usuário a localizar o que procura</p></div></div>
+		</div>
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/47.png"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/48.png"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><p class="legenda">Em formulários, forneça feedback visual quando o preenchimento estiver incorreto</p></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><p class="legenda">Permita o máximo de navegabilidade quando o usuário estiver offline, incluindo mensagem de aviso</p></div></div>
+		</div>
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/49.png"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/50.png"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><p class="legenda">É importante ter uma tela de início ou container de conteúdo enquanto o app é carregado</p></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><p class="legenda">Exemplo de tela de container recomendado</p></div></div>
+		</div>
+		<div class="ui-grid-a imgs">
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><img src="img/51.png"></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><img src="img/52.png"></div></div>
+        	<div class="ui-block-a"><div class="ui-bar ui-bar-a"><p class="legenda">Prefira um layout limpo para necessidades simples do usuário</p></div></div>
+        	<div class="ui-block-b"><div class="ui-bar ui-bar-a"><p class="legenda">Em solicitações de permissão, seja objetivo quando à funcionalidade que o usuário irá liberar</p></div></div>
+		</div>
+		<div class="ui-grid-solo imgs">
+		    <div class="ui-block-a"><img src="img/53.png"></div>
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a">
+			<p class="ce certo">Certo</p>
+			<p class="legenda">Ofereça ações úteis em notificações (pausar, soneca, etc)</p></div></div>
+		</div>
+		<div class="ui-grid-solo imgs">
+		    <div class="ui-block-a"><img src="img/54.png"></div>
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a">
+			<p class="ce certo">Certo</p>
+			<p class="legenda">Seja direto na mensagem das notificações</p></div></div>
+		</div>
+		<div class="ui-grid-solo imgs">
+		    <div class="ui-block-a"><img src="img/55.png"></div>
+			<div class="ui-block-a"><div class="ui-bar ui-bar-a">
+			<p class="ce errado">Errado</p>
+			<p class="legenda">Não é legal enviar notificações sem relação com o app, como de Feliz ano novo</p></div></div>
+		</div>
 	</div>
 </div>
 
@@ -387,101 +672,4 @@
 </div>
 
 </body>
- 
 </html>
-
-<!--<!DOCTYPE html> 
-<html> 
-  <head> 
-  <title>Material4devs</title> 
-  <meta charset="utf-8">  
-  <meta name="viewport" content="width=device-width, initial-scale=1"> 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  
- 
-  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.css">
-  <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
-  <script type="text/javascript" src="http://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.js"></script>
-</head> 
-<body>
-
-<div data-role="page" id="guidelines1">
-	 <header data-role="header" data-position="fixed">
-	 Material4devs
-     </header>
-
-	 <section data-role="content">
-		 <h1>Guideline 1</h1>
-	 </section>
-	 <footer data-role="footer" data-position="fixed"> 
-		<nav data-role="navbar">
-		    <ul>
-		        <li><a href="#guidelines1">Guide 1</a></li>
-		        <li><a href="#guidelines2">Guide 2</a></li>
-		        <li><a href="#exercicios">Exer</a></li>
-		        <li><a href="#sobre">Sobre</a></li>
-		    </ul>
-		</nav>
-	 </footer>
-</div>
-
-<div data-role="page" id="guidelines2">
-	 <header data-role="header" data-position="fixed">
-	 Material4devs
-     </header>
-
-	 <section data-role="content">
-		 <h1>Guideline 2</h1>
-	 </section>
-	 <footer data-role="footer" data-position="fixed"> 
-		<nav data-role="navbar">
-		    <ul>
-		        <li><a href="#guidelines1">Guide 1</a></li>
-		        <li><a href="#guidelines2">Guide 2</a></li>
-		        <li><a href="#exercicios">Exer</a></li>
-		        <li><a href="#sobre">Sobre</a></li>
-		    </ul>
-		</nav>
-	 </footer>
-</div>
-
-<div data-role="page" id="exercicios">
-	 <header data-role="header" data-position="fixed">
-	 Material4devs
-     </header>
-
-	 <section data-role="content">
-		 <h1>Exercicios</h1>
-	 </section>
-	 <footer data-role="footer" data-position="fixed"> 
-		<nav data-role="navbar">
-		    <ul>
-		        <li><a href="#guidelines1">Guide 1</a></li>
-		        <li><a href="#guidelines2">Guide 2</a></li>
-		        <li><a href="#exercicios">Exer</a></li>
-		        <li><a href="#sobre">Sobre</a></li>
-		    </ul>
-		</nav>
-	 </footer>
-</div>
-
-<div data-role="page" id="sobre">
-	 <header data-role="header" data-position="fixed">
-	 Material4devs
-     </header>
-
-	 <section data-role="content">
-		 <h1>Sobre</h1>
-	 </section>
-	 <footer data-role="footer" data-position="fixed"> 
-		<nav data-role="navbar">
-		    <ul>
-		        <li><a href="#guidelines1">Guide 1</a></li>
-		        <li><a href="#guidelines2">Guide 2</a></li>
-		        <li><a href="#exercicios">Exer</a></li>
-		        <li><a href="#sobre">Sobre</a></li>
-		    </ul>
-		</nav>
-	 </footer>
-</div>
-</body>
-</html>-->
