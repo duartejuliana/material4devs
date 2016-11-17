@@ -164,7 +164,7 @@ a {
 	height: 75px;
 }
 
-#pagexercicios .ce, #pagexercicios .legenda {
+#pagexercicios .ce, #pagexercicios .legenda, .ultimatentativa {
 	visibility: hidden;
 }
 

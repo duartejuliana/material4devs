@@ -32,5 +32,34 @@ function responder(numero, alternativa) {
 }
 
 function verSoma() {
-   document.getElementById("mostrasoma").innerHTML = soma; 
+   document.getElementById("mostrasoma").innerHTML = soma;
+   $('.ultimatentativa').css('visibility','visible');
+
+   // Check browser support
+    if (typeof(Storage) !== "undefined") {
+        // Store
+        localStorage.setItem("soma", soma);
+        // Retrieve
+        document.getElementById("ultimasoma").innerHTML = localStorage.getItem("soma");
+    } else {
+        document.getElementById("ultimasoma").innerHTML = "Sorry, your browser does not support Web Storage...";
+    }
+}
+
+function novatentativa() {
+    $('.ce').css('visibility', 'hidden');
+    $('.legenda').css('visibility', 'hidden');
+    soma = 0;
+    localStorage.setItem("soma", soma);
+    res = {};
+}
+
+function ultimatentativa() {
+    document.getElementById("ultimasoma").innerHTML = localStorage.getItem("soma");
+    if (soma > 0 || localStorage.getItem("soma") > 0) {
+        $('.ultimatentativa').css('visibility','visible');
+    }
+    else {
+        $('.ultimatentativa').css('visibility','hidden');
+    }
 }

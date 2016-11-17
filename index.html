@@ -32,11 +32,12 @@
       <section id="exercicios">
         Nesta seção, você terá a oportunidade de testar os conhecimentos adquiridos
         <div>
-            <a href="#pagexercicios" data-rel="page" data-transition="slidedown" class="ui-btn ui-shadow ui-btn-inline">
+            <a href="#pagexercicios" data-rel="page" data-transition="slidedown" class="ui-btn ui-shadow ui-btn-inline"  onclick="novatentativa()">
                 <img src="img/exercicios.gif"> <br>
                 <span>Começar teste!</span>
             </a>
         </div>
+        <div class="ultimatentativa">Última tentativa: <span id="ultimasoma"></span> acertos</div>
       </section>
      
       <section id="info">
@@ -54,7 +55,7 @@
 		<nav data-role="navbar">
 			<ul>
 		        <li><a href="#guideline" class="ui-btn-active">Guidelines</a></li>
-		        <li><a href="#exercicios">Exercicios</a></li>
+		        <li><a href="#exercicios" onclick="ultimatentativa()">Exercicios</a></li>
 		        <li><a href="#info">Info</a></li>
 	        </ul>
 		</nav>
