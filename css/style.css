@@ -176,3 +176,11 @@ a {
 #exercicios a {
 	color: #616161;
 }
+
+.resultado {
+	text-align: center;
+}
+
+#popupResul h3 {
+	margin-top: 0;
+}
