@@ -10,12 +10,17 @@ $(document).on("pagecreate", "#estilo", function(){
     });
 });
 
-$( document ).ready(function() {
+/*$( document ).ready(function() {
     var theheight = ($( window ).height() - 130) + "px";
     $(".menu").css("height", theheight)
-})
+})*/
 
 $(document).delegate('a.top', 'click', function () {
     $('html, body').stop().animate({ scrollTop : 0 }, 500);
     return false;
 });
+
+function responder(ex) {
+    console.log(ex)
+    $('.' + ex).css('visibility','visible').hide().fadeIn("slow");
+}
