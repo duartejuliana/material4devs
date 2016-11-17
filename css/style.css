@@ -184,3 +184,29 @@ a {
 #popupResul h3 {
 	margin-top: 0;
 }
+
+.foto {
+	color: #744EAA;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.sumare {
+	margin: 10px 0 30px;
+}
+
+.sumare img {
+	height: 30px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
