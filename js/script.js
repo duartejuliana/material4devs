@@ -42,13 +42,13 @@ function verSoma() {
         // Retrieve
         document.getElementById("ultimasoma").innerHTML = localStorage.getItem("soma");
     } else {
-        document.getElementById("ultimasoma").innerHTML = "Sorry, your browser does not support Web Storage...";
+        document.getElementById("ultimasoma").innerHTML = "0";
     }
 }
 
 function novatentativa() {
-    $('.ce').css('visibility', 'hidden');
-    $('.legenda').css('visibility', 'hidden');
+    $('#pagexercicios .ce').css('visibility', 'hidden');
+    $('#pagexercicios .legenda').css('visibility', 'hidden');
     soma = 0;
     localStorage.setItem("soma", soma);
     res = {};
