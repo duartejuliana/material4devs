@@ -210,3 +210,7 @@ td, th {
     text-align: left;
     padding: 8px;
 }
+
+#info p {
+	margin-top: 2px;
+}
